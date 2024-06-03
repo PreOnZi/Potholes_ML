@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['cover', 'divider', 'pothole']
+
+roboflow:
+  workspace: detecting-kyxfo
+  project: pothole2.1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detecting-kyxfo/pothole2.1/dataset/2
